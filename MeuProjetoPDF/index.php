@@ -12,4 +12,4 @@ try {
     $mpdf->Output('meuArquivo.pdf', 'I'); 
 } catch (\Mpdf\MpdfException $e) {
     echo 'Erro ao gerar PDF: ' . $e->getMessage();
-}
+} 
