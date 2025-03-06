@@ -1,0 +1,17 @@
+{
+    "name": "davij/meu-projeto-pdf",
+    "autoload": {
+        "psr-4": {
+            "Davij\\MeuProjetoPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davi-JC",
+            "email": "davi.chiquetti@unidavi.ed.br"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "8.2"
+    }
+}
